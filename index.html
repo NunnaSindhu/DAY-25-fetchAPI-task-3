@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHUCKNORIS JOKES</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="fetchAPI-task-3_styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- //create header section to diplay some info about this page -->
+      <header>
+        <img
+          src="https://api.chucknorris.io/img/chucknorris_logo_coloured_small@2x.png"
+          alt="Chucknorris"
+        />
+      </header>
+      <div class="para">
+        <p>
+            Chuck Norris facts are satirical factoids about martial artist and actor
+            Chuck Norris that have become an Internet phenomenon and as a result
+            have become widespread in popular culture. The 'facts' are normally
+            absurd hyperbolic claims about Norris' toughness, attitude, virility,
+            sophistication, and masculinity.
+          </p>
+          <p>
+            Chuck Norris facts have spread around the world, leading not only to
+            translated versions, but also spawning localized versions mentioning
+            country-specific advertisements and other Internet phenomena. Allusions
+            are also sometimes made to his use of roundhouse kicks to perform
+            seemingly any task, his large amount of body hair with specific regard
+            to his beard, and his role in the action television series Walker, Texas
+            Ranger.
+          </p>     
+      </div>
+      <!-- //create input element for search operation -->
+      <div class="btn"><button class="btn btn-success" onclick="randomJokes()">Click Here for Random Jokes</button>
+       <!-- //create element to display the data -->
+    </div>
+      <div class="randomJokes"></div>
+      <div class="display"></div>
+    </div>
+    <script src="fetchAPI-task-3.js"></script>
+  </body>
+</html>
